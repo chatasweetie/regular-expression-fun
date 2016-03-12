@@ -13,6 +13,9 @@ print (re.split(r'[a-f]', 'slkdjvoijewlkbjlknklsdfnayhoghsf'))
 # re.M --> if the input is multi-line, it would evaluate it contiously
 print (re.split(r'[a-fA-F]', 'slkdjvDoijewlkbjlBknklsdfnaPyhoghsf'), re.I|re.M)
 
-
+#will split if two letter are twogether that are within the range
 print (re.split(r'[a-f][a-f]', 'slkdjvDoijewlkbjlBknklsdfnaPyhoghsf'), re.I|re.M)
 
+# other way to find digits [0-9
+# \D is to find everything but digits]
+print (re.findall(r'\d', 'slkjdoibjkl324 main st.sldkjflkbjlskdjflskj'))
