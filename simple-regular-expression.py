@@ -1,3 +1,5 @@
+# From Trevor Payne's youtube viedo: https://www.youtube.com/watch?v=ZdDOauFIDkw
+
 import re
 
 #print spliting on the 's'
